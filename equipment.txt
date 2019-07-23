@@ -1,0 +1,9 @@
+﻿selenium
+requests
+beautifulsoup4
+pandas
+lxml
+urllib
+urllib3
+csv
+jupyter notebook
