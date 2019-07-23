@@ -15,6 +15,7 @@ pip install -r equipment.txt
 - crawl_target.csv 編碼為utf-8，格式參照附件，內容為抓取目標
 - 使用jupter notebook開啟
 - crawl_company.ipynb為主要程式碼內容
+
 #### 變數
 		year = 年分
 		以下list目的取其長度當檔案類型個數
@@ -39,9 +40,10 @@ pip install -r equipment.txt
 		while的大迴圈:
 			co_id = 公司代號
 			toneyeebanhao = 統一編號
-			try 
+			try
 				如果有找到年報檔:進行下載
-			except 記錄各類錯誤
+			except 
+				記錄各類錯誤
 			crawl_report.csv存入時間/公司代號/統一編號/檔案下載情況/python的exception/以及該公司查詢後的網址
 
 
